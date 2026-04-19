@@ -1,5 +1,9 @@
 # Daily Dozen Decision Engine
 
+<p align="center">
+  <img src="logo.png" width="200" title="Daily Dozen Decision Engine">
+</p>
+
 A data-driven nutritional environment designed to automate the logistics of the "Daily Dozen" framework, enabling a deeper, more intentional relationship with food through algorithmic precision and component-based meal prep.
 
 ---
