@@ -1,3 +1,59 @@
-🥗 Daily Dozen Decision EngineA Data-Driven "Chipotle-Style" Meal Prep CoordinatorThis application implements the NutritionFacts.org "Daily Dozen" framework into a functional "Component Cooking" workflow. Instead of rigid recipes, it focuses on prepping isolated "Hero Ingredients" to ensure 100% nutritional coverage for vegetarian and plant-based lifestyles.🧠 Core PhilosophyThe "Bucket" MethodRather than planning meals, you plan Buckets. By selecting one "Hero" from each category once a week, you create a modular kitchen where healthy meals can be assembled in seconds.Data-Driven SynergyNutrition is not additive; it is synergistic. This engine calculates:Iron + Vitamin C: Automatic absorption boosting logic.The Oxalate Trap: Identifying when high-oxalate greens (like spinach) might be hindering calcium intake.Sulforaphane Activation: Prep tips for cruciferous vegetables to maximize cancer-fighting compounds.🛠️ Technical Features🔍 Searchable ArsenalThe app pulls from a custom food_data.json library. With the real-time search filter, you can navigate hundreds of ingredients without cluttering the UI.📊 Nutritional AuditorA dedicated sidebar panel that acts as a virtual consultant:Live Dashboard: Progress bars for Calories, Protein, Fiber, Iron, Calcium, Vitamin C, Zinc, and Omega-3s.The "Fix" Button: A one-click solution that scans the database to suggest the best ingredient to solve a specific nutrient deficit.⚖️ Quantified LogisticsThe engine handles the "Dry-to-Cooked" math. If you need 3 servings of beans a day, the app tells you exactly how many grams of dry beans to buy and measure out.📂 Category StructureThe application enforces diversity by requiring a "Hero" selection from each of the following:CategoryDaily TargetKey FocusBeans3 ServingsPlant Protein & FiberCruciferous1 ServingSulforaphane & IsothiocyanatesGreens2 ServingsNitrates & FolateWhole Grains3 ServingsB-Vitamins & Complex CarbsNuts & Seeds1 ServingEssential Fatty Acids (ALA)Other Veggies2 ServingsPhytonutrient DiversityBerries/Fruits4 ServingsAntioxidant Density🚀 Installation & Usage1. RequirementsYou will need Python 3.x and the following libraries:Bashpip install customtkinter fpdf
-2. ExecutionRun the main entry point:Bashpython main.py
-3. Kitchen ExportClick the "PDF Export" button to generate a printable guide. The file is automatically saved to the /Weekly_History folder, named with the current date for your records.📝 Credits & Data SourcesScience: Based on the work of Dr. Michael Greger (How Not to Die).Data: Sourced from USDA FoodData Central and NutritionFacts.org.Development: Built with a focus on modularity and personal growth.
+# Daily Dozen Decision Engine
+
+A data-driven nutritional environment designed to automate the logistics of the "Daily Dozen" framework, enabling a deeper, more intentional relationship with food through algorithmic precision and component-based meal prep.
+
+---
+
+## Philosophy
+
+This project is rooted in the idea that health is not a destination to be reached through complex recipes, but a baseline state maintained through consistent, atomic habits.
+
+A second principle underlies the design: decision fatigue is the primary obstacle to nutritional sovereignty. By reducing the vast complexity of "what to eat" into a series of modular "Hero Ingredients," the project gives users genuine agency over their biological inputs. 
+
+This is not a diet tracker. The goal is not to count calories or punish the user for deviations. The goal is to provide a "Decision Engine" that handles the cognitive load of nutritional synergy, allowing the user to focus on the experiential act of nourishing the body. If the user emerges from a week of prep feeling more connected to their physical requirements and less stressed by the process, that is considered a success.
+
+---
+
+## What It Does
+
+The Daily Dozen Decision Engine creates a responsive planning interface that:
+
+- **Starts with the Arsenal** — users select from a personalized library of "Hero" foods across 9 essential nutritional buckets.
+- **Adapts in Real Time** — the dashboard responds to selections, instantly calculating the cumulative synergy of the week's micronutrients (Iron, Zinc, Calcium, Omega-3s).
+- **Calculates Physical Logistics** — the engine translates abstract serving goals into exact dry-to-cooked weights, providing a precise roadmap for the grocery store.
+- **Audits Bioavailability** — the system identifies nutritional "blind spots" (like the oxalate trap) and proposes prep-sensitive solutions (like sulforaphane activation).
+
+---
+
+## Design Principles
+
+- **Component Sovereignty** — focus on individual, high-quality ingredients (the "Chipotle" model) rather than rigid, multi-ingredient recipes.
+- **Nutritional Synergy** — acknowledgment that nutrient absorption is context-dependent (e.g., pairing Vitamin C with Iron).
+- **Logistical Transparency** — providing exact quantities for a "1x-per-week" prep cycle to eliminate waste and hesitation.
+- **Non-Directive Consultation** — the system suggests "best source" fixes for deficits rather than forcing a specific meal path.
+
+---
+
+## Technology Stack
+
+- **Python 3.12** — core application logic
+- **CustomTkinter** — modern, high-performance GUI environment
+- **FPDF** — automated generation of printable Kitchen Guides
+- **JSON** — modular, user-editable food database ("The Arsenal")
+- **GitHub** — version control and historical tracking of prep cycles
+
+---
+
+## Status
+
+Active Development. Core engine and synergy logic are functional. Currently refining the historical tracking features and expanded micronutrient heuristics.
+
+---
+
+## Background
+
+This project emerges from an exploration of nutritional science, specifically the evidence-based research of Dr. Michael Greger and NutritionFacts.org. It is built to solve the "implementation gap"—the space between knowing what is healthy and the physical reality of a busy kitchen on a Saturday morning.
+
+---
+
+*This tool is intended for those who view their biology as a system worth optimizing and are willing to engage with the data behind their dinner.*
